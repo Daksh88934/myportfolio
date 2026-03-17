@@ -8,13 +8,13 @@ const projects = [
     title: "SASYANEX",
     category: "Smart Farming Assistant Platform",
     tools: "Weather APIs, Soil Monitoring, Pest Detection, Market Price Analysis",
-    image: "/images/Solidx.png",
+    image: import.meta.env.BASE_URL + "images/Solidx.png",
   },
   {
     title: "NEXTGENBUILDS",
     category: "PC Components & Custom Build Platform",
     tools: "Responsive UI, Component Categorization, Custom PC Build feature",
-    image: "/images/radix.png",
+    image: import.meta.env.BASE_URL + "images/radix.png",
   },
 ];
 
